@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* UVCCapAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* UVCCapAppDelegate.mm */; };
+		39D81C9D18684F5C00EE1344 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39D81C9C18684F5C00EE1344 /* Preferences.xib */; };
+		39D81CA0186853EF00EE1344 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D81C9F186853EF00EE1344 /* PreferencesController.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		DA1C45A51288694E00093117 /* UVCCameraProber.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA1C45A41288694E00093117 /* UVCCameraProber.mm */; };
+		DA1C45A8128869BA00093117 /* uvc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1C457C1288681800093117 /* uvc.framework */; };
+		DA1C460C12886CE800093117 /* ProbeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1C460B12886CE800093117 /* ProbeWindow.xib */; };
+		DA1C461112886D1100093117 /* UVCProbeWindowController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA1C461012886D1100093117 /* UVCProbeWindowController.mm */; };
+		DA1C4659128875BF00093117 /* UVCCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA1C4658128875BF00093117 /* UVCCamera.mm */; };
+		DA1C46D81289373B00093117 /* CameraWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1C46D71289373B00093117 /* CameraWindow.xib */; };
+		DA1C46DD1289376600093117 /* UVCCameraWindowController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA1C46DC1289376600093117 /* UVCCameraWindowController.mm */; };
+		DA1C46EC1289382500093117 /* UVCCameraView.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA1C46EB1289382500093117 /* UVCCameraView.mm */; };
+		DA9A1BD1128BEE7B00B54C40 /* CameraInspector.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA9A1BD0128BEE7B00B54C40 /* CameraInspector.xib */; };
+		DA9A1BD5128BEF7B00B54C40 /* UVCCameraInspector.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA9A1BD4128BEF7B00B54C40 /* UVCCameraInspector.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA1C457B1288681800093117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA1C45741288681800093117 /* uvc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D07F2C80486CC7A007CD1D0;
+			remoteInfo = uvc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA1C460312886CB500093117 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* UVCCapAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVCCapAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* UVCCapAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UVCCapAppDelegate.mm; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* UVCCap_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVCCap_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		39D81C9C18684F5C00EE1344 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		39D81C9E186853EF00EE1344 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		39D81C9F186853EF00EE1344 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* UVCCap-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UVCCap-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* UVCCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UVCCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1C45741288681800093117 /* uvc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = uvc.xcodeproj; path = ../uvc/uvc.xcodeproj; sourceTree = SOURCE_ROOT; };
+		DA1C45A31288694E00093117 /* UVCCameraProber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVCCameraProber.h; sourceTree = "<group>"; };
+		DA1C45A41288694E00093117 /* UVCCameraProber.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UVCCameraProber.mm; sourceTree = "<group>"; };
+		DA1C460B12886CE800093117 /* ProbeWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProbeWindow.xib; sourceTree = "<group>"; };
+		DA1C460F12886D1100093117 /* UVCProbeWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVCProbeWindowController.h; sourceTree = "<group>"; };
+		DA1C461012886D1100093117 /* UVCProbeWindowController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UVCProbeWindowController.mm; sourceTree = "<group>"; };
+		DA1C4657128875BF00093117 /* UVCCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVCCamera.h; sourceTree = "<group>"; };
+		DA1C4658128875BF00093117 /* UVCCamera.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UVCCamera.mm; sourceTree = "<group>"; };
+		DA1C46D71289373B00093117 /* CameraWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraWindow.xib; sourceTree = "<group>"; };
+		DA1C46DB1289376600093117 /* UVCCameraWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVCCameraWindowController.h; sourceTree = "<group>"; };
+		DA1C46DC1289376600093117 /* UVCCameraWindowController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UVCCameraWindowController.mm; sourceTree = "<group>"; };
+		DA1C46EA1289382500093117 /* UVCCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVCCameraView.h; sourceTree = "<group>"; };
+		DA1C46EB1289382500093117 /* UVCCameraView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UVCCameraView.mm; sourceTree = "<group>"; };
+		DA9A1BD0128BEE7B00B54C40 /* CameraInspector.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraInspector.xib; sourceTree = "<group>"; };
+		DA9A1BD3128BEF7B00B54C40 /* UVCCameraInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVCCameraInspector.h; sourceTree = "<group>"; };
+		DA9A1BD4128BEF7B00B54C40 /* UVCCameraInspector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UVCCameraInspector.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				DA1C45A8128869BA00093117 /* uvc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* UVCCapAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* UVCCapAppDelegate.mm */,
+				DA1C45A31288694E00093117 /* UVCCameraProber.h */,
+				DA1C45A41288694E00093117 /* UVCCameraProber.mm */,
+				DA1C460F12886D1100093117 /* UVCProbeWindowController.h */,
+				DA1C461012886D1100093117 /* UVCProbeWindowController.mm */,
+				DA1C4657128875BF00093117 /* UVCCamera.h */,
+				DA1C4658128875BF00093117 /* UVCCamera.mm */,
+				DA1C46DB1289376600093117 /* UVCCameraWindowController.h */,
+				DA1C46DC1289376600093117 /* UVCCameraWindowController.mm */,
+				DA1C46EA1289382500093117 /* UVCCameraView.h */,
+				DA1C46EB1289382500093117 /* UVCCameraView.mm */,
+				DA9A1BD3128BEF7B00B54C40 /* UVCCameraInspector.h */,
+				DA9A1BD4128BEF7B00B54C40 /* UVCCameraInspector.mm */,
+				39D81C9E186853EF00EE1344 /* PreferencesController.h */,
+				39D81C9F186853EF00EE1344 /* PreferencesController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* UVCCap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* UVCCap */ = {
+			isa = PBXGroup;
+			children = (
+				DA1C45741288681800093117 /* uvc.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = UVCCap;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* UVCCap_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* UVCCap-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				DA1C460B12886CE800093117 /* ProbeWindow.xib */,
+				DA1C46D71289373B00093117 /* CameraWindow.xib */,
+				DA9A1BD0128BEE7B00B54C40 /* CameraInspector.xib */,
+				39D81C9C18684F5C00EE1344 /* Preferences.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA1C45751288681800093117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA1C457C1288681800093117 /* uvc.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* UVCCap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "UVCCap" */;
+			buildPhases = (
+				DA1C460312886CB500093117 /* Copy Frameworks */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UVCCap;
+			productInstallPath = "$(HOME)/Applications";
+			productName = UVCCap;
+			productReference = 8D1107320486CEB800E47090 /* UVCCap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UVCCap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* UVCCap */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DA1C45751288681800093117 /* Products */;
+					ProjectRef = DA1C45741288681800093117 /* uvc.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* UVCCap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DA1C457C1288681800093117 /* uvc.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = uvc.framework;
+			remoteRef = DA1C457B1288681800093117 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				DA1C460C12886CE800093117 /* ProbeWindow.xib in Resources */,
+				DA1C46D81289373B00093117 /* CameraWindow.xib in Resources */,
+				DA9A1BD1128BEE7B00B54C40 /* CameraInspector.xib in Resources */,
+				39D81C9D18684F5C00EE1344 /* Preferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* UVCCapAppDelegate.mm in Sources */,
+				DA1C45A51288694E00093117 /* UVCCameraProber.mm in Sources */,
+				DA1C461112886D1100093117 /* UVCProbeWindowController.mm in Sources */,
+				DA1C4659128875BF00093117 /* UVCCamera.mm in Sources */,
+				DA1C46DD1289376600093117 /* UVCCameraWindowController.mm in Sources */,
+				DA1C46EC1289382500093117 /* UVCCameraView.mm in Sources */,
+				DA9A1BD5128BEF7B00B54C40 /* UVCCameraInspector.mm in Sources */,
+				39D81CA0186853EF00EE1344 /* PreferencesController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../uvc/build/Debug\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UVCCap_Prefix.pch;
+				INFOPLIST_FILE = "UVCCap-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = UVCCap;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../uvc/build/Debug\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UVCCap_Prefix.pch;
+				INFOPLIST_FILE = "UVCCap-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = UVCCap;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "UVCCap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "UVCCap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

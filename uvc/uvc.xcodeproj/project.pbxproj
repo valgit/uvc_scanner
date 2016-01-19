@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D07F2BE0486CC7A007CD1D0 /* uvc_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32BAE0B70371A74B00C91783 /* uvc_Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D07F2C00486CC7A007CD1D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		DA900C29128B0C9C0052465E /* ringbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = DA900C28128B0C9C0052465E /* ringbuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9EF1FF1142991B0086156A /* usb_device.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA9EF1EA1142991B0086156A /* usb_device.cpp */; };
+		DA9EF2001142991B0086156A /* usb_device.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9EF1EB1142991B0086156A /* usb_device.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9EF2011142991B0086156A /* usb_exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA9EF1EC1142991B0086156A /* usb_exception.cpp */; };
+		DA9EF2021142991B0086156A /* usb_exception.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9EF1ED1142991B0086156A /* usb_exception.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9EF2031142991B0086156A /* usb_interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA9EF1EE1142991B0086156A /* usb_interface.cpp */; };
+		DA9EF2041142991B0086156A /* usb_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9EF1EF1142991B0086156A /* usb_interface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9EF2051142991B0086156A /* usb_isoch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA9EF1F01142991B0086156A /* usb_isoch.cpp */; };
+		DA9EF2061142991B0086156A /* usb_isoch.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9EF1F11142991B0086156A /* usb_isoch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9EF2071142991B0086156A /* usb_prober.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA9EF1F21142991B0086156A /* usb_prober.cpp */; };
+		DA9EF2081142991B0086156A /* usb_prober.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9EF1F31142991B0086156A /* usb_prober.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9EF2091142991B0086156A /* uvc_camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA9EF1F41142991B0086156A /* uvc_camera.cpp */; };
+		DA9EF20A1142991B0086156A /* uvc_camera.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9EF1F51142991B0086156A /* uvc_camera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9EF20B1142991B0086156A /* uvc_colorcvt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA9EF1F61142991B0086156A /* uvc_colorcvt.cpp */; };
+		DA9EF20C1142991B0086156A /* uvc_colorcvt.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9EF1F71142991B0086156A /* uvc_colorcvt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9EF20D1142991B0086156A /* uvc_confdesc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA9EF1F81142991B0086156A /* uvc_confdesc.cpp */; };
+		DA9EF20E1142991B0086156A /* uvc_confdesc.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9EF1F91142991B0086156A /* uvc_confdesc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9EF20F1142991B0086156A /* uvc_control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA9EF1FA1142991B0086156A /* uvc_control.cpp */; };
+		DA9EF2101142991B0086156A /* uvc_control.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9EF1FB1142991B0086156A /* uvc_control.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9EF2111142991B0086156A /* uvc_decode_frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA9EF1FC1142991B0086156A /* uvc_decode_frame.cpp */; };
+		DA9EF2121142991B0086156A /* uvc_decode_frame.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9EF1FD1142991B0086156A /* uvc_decode_frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9EF2131142991B0086156A /* uvc_types.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9EF1FE1142991B0086156A /* uvc_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9EF2171142993A0086156A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9EF2151142993A0086156A /* CoreFoundation.framework */; };
+		DA9EF2181142993A0086156A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9EF2161142993A0086156A /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32BAE0B70371A74B00C91783 /* uvc_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uvc_Prefix.pch; sourceTree = "<group>"; };
+		8D07F2C70486CC7A007CD1D0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D07F2C80486CC7A007CD1D0 /* uvc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = uvc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA900C28128B0C9C0052465E /* ringbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ringbuffer.h; path = src/ringbuffer.h; sourceTree = "<group>"; };
+		DA9EF1EA1142991B0086156A /* usb_device.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = usb_device.cpp; path = src/usb_device.cpp; sourceTree = "<group>"; };
+		DA9EF1EB1142991B0086156A /* usb_device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = usb_device.h; path = src/usb_device.h; sourceTree = "<group>"; };
+		DA9EF1EC1142991B0086156A /* usb_exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = usb_exception.cpp; path = src/usb_exception.cpp; sourceTree = "<group>"; };
+		DA9EF1ED1142991B0086156A /* usb_exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = usb_exception.h; path = src/usb_exception.h; sourceTree = "<group>"; };
+		DA9EF1EE1142991B0086156A /* usb_interface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = usb_interface.cpp; path = src/usb_interface.cpp; sourceTree = "<group>"; };
+		DA9EF1EF1142991B0086156A /* usb_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = usb_interface.h; path = src/usb_interface.h; sourceTree = "<group>"; };
+		DA9EF1F01142991B0086156A /* usb_isoch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = usb_isoch.cpp; path = src/usb_isoch.cpp; sourceTree = "<group>"; };
+		DA9EF1F11142991B0086156A /* usb_isoch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = usb_isoch.h; path = src/usb_isoch.h; sourceTree = "<group>"; };
+		DA9EF1F21142991B0086156A /* usb_prober.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = usb_prober.cpp; path = src/usb_prober.cpp; sourceTree = "<group>"; };
+		DA9EF1F31142991B0086156A /* usb_prober.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = usb_prober.h; path = src/usb_prober.h; sourceTree = "<group>"; };
+		DA9EF1F41142991B0086156A /* uvc_camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uvc_camera.cpp; path = src/uvc_camera.cpp; sourceTree = "<group>"; };
+		DA9EF1F51142991B0086156A /* uvc_camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uvc_camera.h; path = src/uvc_camera.h; sourceTree = "<group>"; };
+		DA9EF1F61142991B0086156A /* uvc_colorcvt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uvc_colorcvt.cpp; path = src/uvc_colorcvt.cpp; sourceTree = "<group>"; };
+		DA9EF1F71142991B0086156A /* uvc_colorcvt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uvc_colorcvt.h; path = src/uvc_colorcvt.h; sourceTree = "<group>"; };
+		DA9EF1F81142991B0086156A /* uvc_confdesc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uvc_confdesc.cpp; path = src/uvc_confdesc.cpp; sourceTree = "<group>"; };
+		DA9EF1F91142991B0086156A /* uvc_confdesc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uvc_confdesc.h; path = src/uvc_confdesc.h; sourceTree = "<group>"; };
+		DA9EF1FA1142991B0086156A /* uvc_control.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uvc_control.cpp; path = src/uvc_control.cpp; sourceTree = "<group>"; };
+		DA9EF1FB1142991B0086156A /* uvc_control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uvc_control.h; path = src/uvc_control.h; sourceTree = "<group>"; };
+		DA9EF1FC1142991B0086156A /* uvc_decode_frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uvc_decode_frame.cpp; path = src/uvc_decode_frame.cpp; sourceTree = "<group>"; };
+		DA9EF1FD1142991B0086156A /* uvc_decode_frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uvc_decode_frame.h; path = src/uvc_decode_frame.h; sourceTree = "<group>"; };
+		DA9EF1FE1142991B0086156A /* uvc_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uvc_types.h; path = src/uvc_types.h; sourceTree = "<group>"; };
+		DA9EF2151142993A0086156A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		DA9EF2161142993A0086156A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D07F2C30486CC7A007CD1D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9EF2171142993A0086156A /* CoreFoundation.framework in Frameworks */,
+				DA9EF2181142993A0086156A /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D07F2C80486CC7A007CD1D0 /* uvc.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* uvc */ = {
+			isa = PBXGroup;
+			children = (
+				DA9EF21F114299680086156A /* Header */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = uvc;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DA9EF2151142993A0086156A /* CoreFoundation.framework */,
+				DA9EF2161142993A0086156A /* IOKit.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D07F2C70486CC7A007CD1D0 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DA9EF1EA1142991B0086156A /* usb_device.cpp */,
+				DA9EF1EC1142991B0086156A /* usb_exception.cpp */,
+				DA9EF1EE1142991B0086156A /* usb_interface.cpp */,
+				DA9EF1F01142991B0086156A /* usb_isoch.cpp */,
+				DA9EF1F21142991B0086156A /* usb_prober.cpp */,
+				DA9EF1F41142991B0086156A /* uvc_camera.cpp */,
+				DA9EF1F61142991B0086156A /* uvc_colorcvt.cpp */,
+				DA9EF1F81142991B0086156A /* uvc_confdesc.cpp */,
+				DA9EF1FA1142991B0086156A /* uvc_control.cpp */,
+				DA9EF1FC1142991B0086156A /* uvc_decode_frame.cpp */,
+				32BAE0B70371A74B00C91783 /* uvc_Prefix.pch */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		DA9EF21F114299680086156A /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				DA900C28128B0C9C0052465E /* ringbuffer.h */,
+				DA9EF1EB1142991B0086156A /* usb_device.h */,
+				DA9EF1ED1142991B0086156A /* usb_exception.h */,
+				DA9EF1EF1142991B0086156A /* usb_interface.h */,
+				DA9EF1F11142991B0086156A /* usb_isoch.h */,
+				DA9EF1F31142991B0086156A /* usb_prober.h */,
+				DA9EF1F51142991B0086156A /* uvc_camera.h */,
+				DA9EF1F71142991B0086156A /* uvc_colorcvt.h */,
+				DA9EF1F91142991B0086156A /* uvc_confdesc.h */,
+				DA9EF1FB1142991B0086156A /* uvc_control.h */,
+				DA9EF1FD1142991B0086156A /* uvc_decode_frame.h */,
+				DA9EF1FE1142991B0086156A /* uvc_types.h */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D07F2BD0486CC7A007CD1D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D07F2BE0486CC7A007CD1D0 /* uvc_Prefix.pch in Headers */,
+				DA9EF2001142991B0086156A /* usb_device.h in Headers */,
+				DA9EF2021142991B0086156A /* usb_exception.h in Headers */,
+				DA9EF2041142991B0086156A /* usb_interface.h in Headers */,
+				DA9EF2061142991B0086156A /* usb_isoch.h in Headers */,
+				DA9EF2081142991B0086156A /* usb_prober.h in Headers */,
+				DA9EF20A1142991B0086156A /* uvc_camera.h in Headers */,
+				DA9EF20C1142991B0086156A /* uvc_colorcvt.h in Headers */,
+				DA9EF20E1142991B0086156A /* uvc_confdesc.h in Headers */,
+				DA9EF2101142991B0086156A /* uvc_control.h in Headers */,
+				DA9EF2121142991B0086156A /* uvc_decode_frame.h in Headers */,
+				DA9EF2131142991B0086156A /* uvc_types.h in Headers */,
+				DA900C29128B0C9C0052465E /* ringbuffer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D07F2BC0486CC7A007CD1D0 /* uvc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FADC24208B4156D00ABE55E /* Build configuration list for PBXNativeTarget "uvc" */;
+			buildPhases = (
+				8D07F2BD0486CC7A007CD1D0 /* Headers */,
+				8D07F2BF0486CC7A007CD1D0 /* Resources */,
+				8D07F2C10486CC7A007CD1D0 /* Sources */,
+				8D07F2C30486CC7A007CD1D0 /* Frameworks */,
+				8D07F2C50486CC7A007CD1D0 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uvc;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = uvc;
+			productReference = 8D07F2C80486CC7A007CD1D0 /* uvc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4FADC24608B4156D00ABE55E /* Build configuration list for PBXProject "uvc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* uvc */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D07F2BC0486CC7A007CD1D0 /* uvc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D07F2BF0486CC7A007CD1D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D07F2C00486CC7A007CD1D0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D07F2C50486CC7A007CD1D0 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D07F2C10486CC7A007CD1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9EF1FF1142991B0086156A /* usb_device.cpp in Sources */,
+				DA9EF2011142991B0086156A /* usb_exception.cpp in Sources */,
+				DA9EF2031142991B0086156A /* usb_interface.cpp in Sources */,
+				DA9EF2051142991B0086156A /* usb_isoch.cpp in Sources */,
+				DA9EF2071142991B0086156A /* usb_prober.cpp in Sources */,
+				DA9EF2091142991B0086156A /* uvc_camera.cpp in Sources */,
+				DA9EF20B1142991B0086156A /* uvc_colorcvt.cpp in Sources */,
+				DA9EF20D1142991B0086156A /* uvc_confdesc.cpp in Sources */,
+				DA9EF20F1142991B0086156A /* uvc_control.cpp in Sources */,
+				DA9EF2111142991B0086156A /* uvc_decode_frame.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FADC24308B4156D00ABE55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = uvc_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_NAME = uvc;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		4FADC24408B4156D00ABE55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = uvc_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_STYLE = DYNAMIC;
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_NAME = uvc;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		4FADC24708B4156D00ABE55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-pthread",
+				);
+				OTHER_LDFLAGS = "-pthread";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4FADC24808B4156D00ABE55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-pthread",
+				);
+				OTHER_LDFLAGS = "-pthread";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FADC24208B4156D00ABE55E /* Build configuration list for PBXNativeTarget "uvc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FADC24308B4156D00ABE55E /* Debug */,
+				4FADC24408B4156D00ABE55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FADC24608B4156D00ABE55E /* Build configuration list for PBXProject "uvc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FADC24708B4156D00ABE55E /* Debug */,
+				4FADC24808B4156D00ABE55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
